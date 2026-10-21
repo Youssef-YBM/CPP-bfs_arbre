@@ -1,1 +1,7 @@
-g++ -O2 -std=c++17 bfs_arbre.cpp -o bfs.exe
+// bfs_priority.cpp
+// Compilation : g++ -O2 -std=c++17 bfs_arbre.cpp -o bfs.exe
+// Execution   : bfs
+
+// bfs_priority_queue.cpp
+// Compilation : g++ -O2 -std=c++17 bfs_priority_queue.cpp -o bfsq
+// Execution   : bfsq
