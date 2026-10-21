@@ -3,3 +3,12 @@
 3.     n <- file.pop_front()
 4.     visited.push_back(n.val)
 5.     pour chaque fils f de n : si f != null alors file.push_back(f)
+
+
+Temps 0 : file = [1]              -> niveau 0
+Temps 1 : file = [2, 3]           -> niveau 1 complet
+Temps 2 : file = [3, 4, 5]        -> 3 (niveau 1) + 4,5 (niveau 2)
+Temps 3 : file = [4, 5, 6]        -> niveau 2 complet
+Temps 4 : file = [5, 6]           -> niveau 2 (reste)
+Temps 5 : file = [6]              -> niveau 2 (reste)
+Temps 6 : file = []               -> fini
