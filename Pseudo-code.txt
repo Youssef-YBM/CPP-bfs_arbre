@@ -1,0 +1,5 @@
+1. file <- [racine]
+2. tant que file non vide :
+3.     n <- file.pop_front()
+4.     visited.push_back(n.val)
+5.     pour chaque fils f de n : si f != null alors file.push_back(f)
